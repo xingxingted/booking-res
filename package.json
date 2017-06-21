@@ -1,0 +1,28 @@
+{
+  "name": "booking-res",
+  "version": "1.0.0",
+  "description": "get a response from cache when booked before",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingxingted/node-booking-res.git"
+  },
+  "keywords": [
+    "http",
+    "request",
+    "cache"
+  ],
+  "author": "Ted Wu <gzwujiaxiang@corp.netease.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xingxingted/node-booking-res/issues"
+  },
+  "homepage": "https://github.com/xingxingted/node-booking-res#readme",
+  "dependencies": {
+    "lru-cache": "^4.1.1",
+    "request": "^2.81.0"
+  }
+}
